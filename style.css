@@ -1,0 +1,268 @@
+body {
+    background-color: black;
+}
+.top{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+.firstpage{
+    color: #ffffff;
+    height :40px;
+    width: 100%;
+    z-index: 2;
+}
+.topop{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+.logo{
+    height:2.5rem;
+    width: 9.25rem;
+    margin: 20px 0px 0px 150px;
+    display: flex;
+    flex-wrap:nowrap;
+    align-self: flex-start;
+    background-image: url("https://www.techdaily.com.au/b2/wp-content/uploads/2015/03/Netflix_Logo_Print_FourColorCMYK.png");
+    background-size: cover;
+    height: 38px;
+    width: 100pxpx;
+}
+select{
+    border-radius: 3%;
+    size: 1rem;
+}
+.language{
+    margin: 0px 0px 0px 24px;
+    border:0.7px solid #a89b9b ;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 5%;
+    padding: 6px 36px;
+    background: transparent;
+}
+option{
+    color: black;
+}
+button {
+    padding: 1rem;
+    background-color:#E50914 ;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+.button1{
+    font-size: 0.95rem;
+    padding: 10px 15px 10px 15px;
+    display: flex;
+    align-items: end;
+    justify-self:end;
+    margin-right: 100px;
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+}
+.p1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+.sign-up{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 140px;
+    border-bottom: 9px solid #343434;
+}
+.button2{
+    padding: 10px 25px;
+    font-size: 1.7rem;
+}
+.textbar{
+    margin-top: 250px;
+}
+h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+.page1{
+    background-image: url("backgroundimg.jpeg");
+    background-size: cover;
+    height: 695px;
+    width: 100%;
+    
+}
+.page2{
+    color:#fff;
+    height:550px;
+    width: 100%;
+    margin-top: 70px;
+    border-bottom: 9px solid #343434;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.page2head{
+    margin-top: 170px;
+    margin-left: 100px;
+}
+.page2text{
+    margin-left: 100px;
+    font-size: 2rem;
+}
+h2{
+    display: flex;
+    font-size: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+.page2img{
+    background-image: url("2ndimgnetflix.png");
+    height: 330px;
+    width: 750px;
+    background-size: cover;
+    margin-right: 150px;
+    margin-top: 130px;
+}
+.page3{
+    display: flex;
+    color:#fff;
+    height:550px;
+    width: 100%;
+    margin-top: 70px;
+    border-bottom: 9px solid #343434;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.page3 h2{
+    text-align: center;
+}
+.page3img{
+    background-image: url("page3.jpg");
+    background-size: cover;
+    height: 450px;
+    width: 550px;
+}
+.page4{
+    color:#fff;
+    height:550px;
+    width: 100%;
+    margin-top: 70px;
+    border-bottom: 9px solid #343434;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.page4head{
+    margin-top: 170px;
+    margin-left: 100px;
+}
+.page4text{
+    margin-left: 100px;
+    font-size: 2rem;
+}
+.page4 h2{
+    display: flex;
+    font-size: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+.page4img{
+    background-image: url("page4.png");
+    height: 330px;
+    width: 750px;
+    background-size: cover;
+    margin-right: 150px;
+    margin-top: 130px;
+}
+.page5{
+    display: flex;
+    color:#fff;
+    height:550px;
+    width: 100%;
+    margin-top: 70px;
+    border-bottom: 9px solid #343434;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.page5 h2{
+    text-align: center;
+}
+.page5img{
+    background-image: url("page5.png");
+    background-size: cover;
+    height: 390px;
+    width: 570px;
+}
+.b{
+    background-color: #343434;
+    border-radius: 0px;
+    width: 80%;
+    margin-left: 150px;
+    margin-bottom: 10px;
+    padding: 25px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+.faqs{
+    display: block;
+    /* text-align: center; */
+    border-bottom: 90px solid #000;
+}
+.b2{
+    background-color: #343434;
+    width: 80%;
+    margin-left: 150px;
+    margin-bottom: 100px;
+    padding: 24px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.topper{
+    /* text-align: center; */
+    height: 90px;
+    width: 100%;
+}
+.topper a{
+    text-align: start;
+}
+footer{
+    font-size: 1.4rem;
+    color:#b6b0b0
+}
+footer a{
+    color:#b6b0b0;
+}
+.p2
+{
+    margin-left:190px;
+}
+.all{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    /* align-items: center; */
+    list-style: none;
+    font-size: 1rem;
+    margin: 40px;
+    padding: 40px;
+}
